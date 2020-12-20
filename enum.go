@@ -1,7 +1,7 @@
 package enum
 
-var (
-	// Special index returned for non-member enums. Notice that the member
+const (
+	// NoRecord is the special index returned for non-member enums. Notice that the member
 	// indexes always start from 1, hence 0 is never used.
 	NoRecord uint = 0
 )
